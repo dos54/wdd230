@@ -1,0 +1,38 @@
+:root {
+    --text-color: black;
+    --background-color: #F0EBD8;
+    --theme-ultralight: #d8e9ff;
+    --theme-light: #748CAB;
+    --theme-medium: #3E5C76;
+    --theme-mediumdark: #1D2D44;
+    --theme-dark: #0D1321;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main, footer {
+    /* Positioning and sizing */
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 0.5rem;
+
+    /* Colors and borders */
+    border: 1px solid var(--theme-medium);
+    border-radius: 6px;
+    background-color: var(--theme-ultralight);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+section {
+    padding: 0 1rem;
+
+    background-color: white;
+    border-radius: 6px;
+}

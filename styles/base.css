@@ -1,0 +1,50 @@
+:root {
+    --text-color: black;
+    --background-color: #F0EBD8;
+    --theme-ultralight: #b7c5d6;
+    --theme-light: #748CAB;
+    --theme-medium: #3E5C76;
+    --theme-mediumdark: #1D2D44;
+    --theme-dark: #0D1321;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* Make sure that all children don't automatically stick to the side (looks gross 🤮) */
+body > * {
+    padding: 0 1rem;
+}
+
+header {
+    /* Sizing and location */
+    grid-row: 1/2;
+
+    /* Colors and theming */
+    color: var(--text-color);
+    background-color: var(--theme-ultralight);
+}
+
+main {
+    /* Sizing and location */
+    grid-row: 2/3;
+
+    /* Colors and theming */
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+footer {
+    /* Sizing and location */
+    grid-row: 3/4;
+
+    /* Colors and theming */
+    color: var(--text-color);
+    background-color: var(--theme-ultralight);
+}
