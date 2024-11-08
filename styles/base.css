@@ -6,45 +6,113 @@
     --theme-medium: #3E5C76;
     --theme-mediumdark: #1D2D44;
     --theme-dark: #0D1321;
+    --font-family: 'poppins', 'roboto', sans-serif
 }
+
 
 body {
-    box-sizing: border-box;
-    padding: 0;
+    font-family: var(--font-family);
     margin: 0;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-
-/* Make sure that all children don't automatically stick to the side (looks gross 🤮) */
-body > * {
-    padding: 0 1rem;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     /* Sizing and location */
-    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
 
     /* Colors and theming */
     color: var(--text-color);
     background-color: var(--theme-ultralight);
+}
+
+/* Nav Bar */
+nav {
+    background-color: var(--theme-medium);
+    margin: 0;
+}
+
+nav * {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    list-style: none;
+}
+
+nav li {
+    height: 3rem;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, .2);
 }
 
 main {
     /* Sizing and location */
-    grid-row: 2/3;
+    margin: 0;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+    justify-content: center;
 
     /* Colors and theming */
     color: var(--text-color);
-    background-color: var(--background-color);
+}
+
+main h1 {
+    text-align: center;
+    border-bottom: 1px solid var(--theme-ultralight);
 }
 
 footer {
     /* Sizing and location */
-    grid-row: 3/4;
+    text-align: center;
 
     /* Colors and theming */
     color: var(--text-color);
+    /* background-color: var(--theme-ultralight); */
+}
+
+/* Card Code */
+.card {
+    max-width: 640px;
+
+    border: 1px solid var(--theme-medium);
+    border-radius: 6px;
+    background-color: var(--background-color);
+}
+
+.card h1, .card h2, .card h3, .card h4 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
     background-color: var(--theme-ultralight);
+}
+
+.profile {
+    width: 5rem;
+    height: 100%;
 }
