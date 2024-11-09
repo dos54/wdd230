@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steven C. Thomas">
+    <meta name="description" content="Chamber of Commerce site plan for Ketchikan, Alaska. Built for WDD230 in BYU-Idaho by Steven C. Thomas">
+
+    <title>WDD131 - Steven Thomas - Chamber of Commerce Site Plan</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-medium.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="stylesheet" href="styles/siteplan.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+    <script defer src="scripts/getDates.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Ketchikan Chamber of Commerce</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="chamber-site-plan.html" class="active">Site Plan</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="gallery">
+            <div class="card" id="plan">
+                <h2>Turning Alaska Site Plan</h2>
+
+                <!-- Site Name -->
+                <section>
+                    <h3>Site Name</h3>
+                    <p>Ketchikan Chamber of Commerce</p>
+                    <p>This name represents the city in which the chamber of commerce operates.</p>
+                </section>
+
+                <!-- Purpose -->
+                <section>
+                    <h3>Purpose</h3>
+                    <p>The Ketchikan Chamber of Commerce serves the local community by providing services to its local businesses, such as facilitating the creation of connections and partnerships between businesses.</p>
+                </section>
+
+                <!-- Scenarios -->
+                <section>
+                    <h3>Scenarios</h3>
+                    <ul>
+                        <li>Where can I find information about upcoming events?</li>
+                        <li>How can I contact board members?</li>
+                        <li>How has the population grown recently?</li>
+                        <li>Why should I invest in Ketchikan?</li>
+                    </ul>
+                </section>
+
+                <!-- Color Schema -->
+                <section>
+                    <h3>Color Schema</h3>
+                    <ul id="color-schema">
+                        <li>
+                            <div class="color-box background-color"></div>Background Color: White <p>
+                                The primary background color of the webpages.
+                            </p>
+                        </li>
+                        <li>
+                            <div class="color-box accent-1"></div>
+                            Header & footer color: #a5cbeb
+                            <p>
+                                Color of headers and footers
+                            </p>
+                        </li>
+                        <li>
+                            <div class="color-box accent-2"></div>
+                            Light Blue: #8ab1d1
+                            <p>
+                                Light blue color for accents and highlighting.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Typography -->
+                <section>
+                    <h3>Typography</h3>
+                    <p>
+                        The only font that will be used is Poppins.
+                    </p>
+                </section>
+                
+                <!-- Wireframes -->
+                 <section>
+                    <h3>Wireframes</h3>
+                    <!-- Mobile view -->
+                     <div id="wireframes">
+                         <figure>
+                             <picture>
+                                 <img src="images/wireframe-mobile-view.png" alt="Wireframe of the mobile website" loading="lazy">
+                             </picture>
+                             <figcaption>
+                                 Home page mobile view wireframe
+                             </figcaption>
+                         </figure>
+     
+                         <!-- Desktop view -->
+                         <figure>
+                             <picture>
+                                <img src="images/wireframe-desktop-view.png" alt="Wireframe of the desktop website" loading="lazy">
+                             </picture>
+                             <figcaption>
+                                <p>
+                                    Home page desktop view wireframe
+                                </p>
+                             </figcaption>
+                         </figure>
+                     </div>
+                 </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Steven Thomas | Alaska, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
