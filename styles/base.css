@@ -9,6 +9,14 @@
     --font-family: 'poppins', 'roboto', sans-serif
 }
 
+button {
+    font-size: 1.5rem;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    background: none;
+}
 
 body {
     font-family: var(--font-family);
@@ -28,9 +36,28 @@ header {
 }
 
 /* Nav Bar */
+#menu {
+    color: white;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#menu::before {
+    content: '≡';
+}
+
+#menu.open::before {
+    content: 'X';
+}
+
+.open {
+    display: block;
+}
+
 nav {
     background-color: var(--theme-medium);
     margin: 0;
+    display: none;
 }
 
 nav * {
