@@ -1,0 +1,155 @@
+:root {
+    --text-color: black;
+    --background-color: #F0EBD8;
+    --theme-ultralight: #b7c5d6;
+    --theme-light: #748CAB;
+    --theme-medium: #3E5C76;
+    --theme-mediumdark: #1D2D44;
+    --theme-dark: #0D1321;
+    --font-family: 'poppins', 'roboto', sans-serif
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    /* Sizing and location */
+    grid-row: 1 / 2;
+
+    display: flex;
+
+    /* Colors and theming */
+    color: var(--text-color);
+    background-color: var(--theme-ultralight);
+}
+
+
+
+.navigation {
+    display: none;
+    align-items: center;
+    margin-left: auto;
+    margin-top: auto;
+    height: 100%;
+
+}
+
+.navigation ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 .5rem;
+    padding: .5rem;
+}
+
+.navigation a:hover {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.active {
+    border-top: 3px solid var(--theme-medium);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto 1rem;
+}
+
+#socials {
+    margin-left: 1rem;
+}
+
+
+main {
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 3px;
+    min-height: 10rem;
+    min-width: 30rem;
+    max-width: 80%;
+    margin: .5rem auto;
+    background-color: rgba(0, 0, 0, .04);
+}
+
+.card h1,
+.card h2 {
+    margin: 0.5rem 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.event * {
+    margin-top: 0;
+    padding: 0;
+    margin-left: 2rem;
+}
+
+#spotlights > h2 {
+    text-align: center;
+    color: var(--theme-dark);
+}
+
+footer {
+    grid-row: 3/4;
+    background-color: var(--theme-ultralight);
+    color: var(--text-color);
+}
+
+#menu {
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    background-color: var(--theme-dark);
+}
+
+#menu::before {
+    content: '≡';
+}
+
+#menu.open::before {
+    content: 'X';
+}
+
+.open {
+    display: block;
+}
+
+.navigation.open {
+    display: block;
+    position: absolute;
+    top: 10rem;
+    left: 0;
+}
+
+.navigation.open ul {
+    display: block;
+    background-color: var(--theme-ultralight);
+    padding: 2rem;
+}

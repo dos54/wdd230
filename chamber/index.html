@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steven C. Thomas">
+    <meta name="description"
+        content="Home page for the wdd230 class for BYU-Idaho. Course assignment portal. Steven C. Thomas. WDD 230 - Web Frontend Development">
+    
+    <!-- OG meta tags -->
+    <meta property="og:title" content="Web Frontend Development Home Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="dos54.github.io/wdd230" />
+    <meta property="og:image" content="dos54.github.io/wdd230/images/alaska-sign.jpg" />
+    
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+    
+    <!-- Title and favicon -->
+    <title>Steven Thomas - WDD230 - Chamber of Commerce Website</title>
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Scripts -->
+     <script defer src="scripts/menu.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Ketchikan Chamber of Commerce Logo" class="logo">
+        <div>
+            <h1>Ketchikan</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <span id="socials">F I</span>
+        <button id="menu" type="button"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="hero"></div>
+        <div id="call-to-action"></div>
+        <section class="card" id="current-events" >
+            <h2>Events</h2>
+            <section class="event">
+                <h3>Event title</h3>
+                <p>Event description</p>
+            </section>
+        </section>
+        <section class="card" id="weather">
+            <h2>Weather</h2>
+        </section>
+        <section id="spotlights">
+            <h2>Member Spotlights</h2>
+            <div class="card">
+                <h2>Member1</h2>
+                <p>description</p>
+                <div class="contact">
+
+                </div>
+            </div>
+            <div class="card">
+                <h2>Member2</h2>
+                <p>description</p>
+                <div class="contact">
+
+                </div>
+            </div>
+            <div class="card">
+                <h2>Member3</h2>
+                <p>description</p>
+                <div class="contact">
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div id="info">&copy;<span id="year"></span> Ketchikan Chamber | Steven C. Thomas | WDD 230 Project | Last Modified: <span id="last-modified"></span></div>
+    </footer>
+</body>
+</html>
