@@ -39,7 +39,7 @@
         <button type="button" id="mode">🕶️</button>
     </header>
 
-    <button id="menu" type="button"></button>
+    <button id="menu" type="button">!</button>
     <nav>
         <ul>
             <li><a class="active" href="#">Home</a></li>
@@ -50,6 +50,14 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width:1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width:500px)">
+                <img src="images/hero-small.webp" alt="Anchorage Alaska Temple" width="1500" height="750">
+            </picture>
+            <h2 id="hero-overlay">Anchorage Alaska Temple</h2>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -70,6 +78,11 @@
             <p><span id="temperature"></span></p>
             <p>Page Visits: <span id="visits"></span></p>
         </section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123449.98879379084!2d-131.66721990857818!3d55.34742096494054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x540c25088729e15b%3A0x7e90e56bcfc60674!2sKetchikan%2C%20Alaska%2099901!5e1!3m2!1ses-419!2sus!4v1732252319272!5m2!1ses-419!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            id="map"></iframe>
     </main>
 
     <footer>
