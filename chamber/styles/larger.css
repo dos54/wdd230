@@ -15,4 +15,24 @@
     #spotlights {
         flex: 1 1 100%;
     }
+
+    #discovery-content {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    
+    #discovery-content > .left {
+        grid-column: 1/2;
+
+    }
+
+    #discovery-content > .right {
+        grid-column: 2/3;
+    }
+
 }

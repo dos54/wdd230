@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steven C. Thomas">
+    <meta name="description"
+        content="Home page for the wdd230 class for BYU-Idaho. Course assignment portal. Steven C. Thomas. WDD 230 - Web Frontend Development">
+
+    <!-- OG meta tags -->
+    <meta property="og:title" content="Web Frontend Development Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="dos54.github.io/wdd230">
+    <meta property="og:image" content="dos54.github.io/wdd230/images/alaska-sign.jpg">
+
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <!-- Title and favicon -->
+    <title>Steven Thomas - WDD230 - Web Frontend Development</title>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Scripts -->
+    <script defer src="scripts/menu.js"></script>
+    <script defer src="scripts/mode-button.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/trigger.jpg" alt="Steven Thomas with his dog, Trigger." class="profile">
+        <h1>Steven C. Thomas</h1>
+        <button type="button" id="mode">🕶️</button>
+    </header>
+
+    <button id="menu" type="button">!</button>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="siteplan.html">Site Plan</a></li>
+            <li><a class="active" href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="card centered">
+            <h3>Thank you!</h3>
+            <p>Your form has been successfully submitted.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Steven C. Thomas | Ketchikan, Alaska</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script defer src="scripts/getDates.js"></script>
+    <script defer src="scripts/validate.js"></script>
+</body>
+
+</html>

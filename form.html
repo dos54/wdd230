@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
 
     <!-- Scripts -->
      <script defer src="scripts/menu.js"></script>
@@ -42,48 +43,26 @@
     <button id="menu" type="button">!</button>
     <nav>
         <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="chamber/index.html">Chamber</a></li>
             <li><a href="siteplan.html">Site Plan</a></li>
-            <li><a href="form.html">Form</a></li>
+            <li><a class="active" href="form.html">Form</a></li>
         </ul>
     </nav>
 
     <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/hero-large.webp" media="(min-width:1000px)">
-                <source srcset="images/hero-medium.webp" media="(min-width:500px)">
-                <img src="images/hero-small.webp" alt="Anchorage Alaska Temple" width="1500" height="750">
-            </picture>
-            <h2 id="hero-overlay">Anchorage Alaska Temple</h2>
+        <div class="card centered form-container">
+            <form action="record.html" method="get" class="web-form-1">
+                <label>Username<input type="text" name="username" id="username1" required placeholder="JohnSmith"></label>
+                <label>Password<input type="text" name="password" id="password1" required placeholder="js1234" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></label>
+                <label>Verify Password<input type="text" name="password" id="password2" required placeholder="js1234" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></label>
+                <label>Email<input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$" title="Please enter a valid email address"></label>
+                <label>Please Rate Us<input type="range" id="rating" name="rating" required min="1" max="10" step="1" value="10"><span id="rating-value">10</span></label>
+                <label> <input type="submit" value="Sign Up"></label>
+                <p>* = required</p>
+
+            </form>
         </div>
-        <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul>
-                <li><a href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a></li>
-                <li><a href="https://codepen.io/dos54">Codepen</a></li>
-                <li><a href="week03/images/landscape.webp">WebP</a></li>
-                <li><a href="week03/lazyload.html">Lazy Loading</a></li>
-                <li><a href="week03/responsive-images.html">Responsive Images</a></li>
-                <li><a href="week03/bom.html">Week 3 Book of Mormon Chapters List</a></li>
-                <li><a href="#">#</a></li>
-                <li><a href="week04/images/combinators-exercise.png">Combinators Exercise Image</a></li>
-                <li><a href="#">#</a></li>
-            </ul>
-        </section>
-        <section class="card">
-            <h2>Information</h2>
-            <p><span id="location"></span></p>
-            <p><span id="temperature"></span></p>
-            <p>Page Visits: <span id="visits"></span></p>
-        </section>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123449.98879379084!2d-131.66721990857818!3d55.34742096494054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x540c25088729e15b%3A0x7e90e56bcfc60674!2sKetchikan%2C%20Alaska%2099901!5e1!3m2!1ses-419!2sus!4v1732252319272!5m2!1ses-419!2sus"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            id="map"></iframe>
     </main>
 
     <footer>
@@ -91,6 +70,6 @@
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
     <script defer src="scripts/getDates.js"></script>
-    <script defer src="scripts/visits.js"></script>
+    <script defer src="scripts/validate.js"></script>
 </body>
 </html>

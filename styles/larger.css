@@ -26,6 +26,10 @@
         max-width: 100%;
     }
 
+    .centered {
+        grid-column: 1/4;
+    }
+
     #menu {
         display: none;
     }
