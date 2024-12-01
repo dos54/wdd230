@@ -102,6 +102,16 @@ main {
     border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
+.card > section {
+    max-width: 50rem;
+    margin: .5rem 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.card > :last-child {
+    border-bottom: none;
+}
+
 .event * {
     margin-top: 0;
     padding: 0;
@@ -176,4 +186,45 @@ footer {
 
 #discovery-content h2 {
     text-align: center;
+}
+
+/* Forms */
+
+.web-form-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.web-form-1 label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.web-form-1 label > * {
+    display: block;
+}
+
+.web-form-1 label:has(:required)::before {
+    color: red;
+    content: "*";
+}
+
+.web-form-1 input {
+    border-radius: 5px;
+}
+
+.web-form-1 input:invalid {
+    border-left: 6px solid red;
+}
+
+.web-form-1 input[type="text"]:valid,
+.web-form-1 input[type="email"]:valid {
+    border-left: 6px solid green;
+}
+
+.web-form-1 input[type=submit] {
+    min-width: 10rem;
+    min-height: 3rem;
+
 }

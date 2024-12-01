@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steven C. Thomas">
+    <meta name="description"
+        content="Home page for the wdd230 class for BYU-Idaho. Course assignment portal. Steven C. Thomas. WDD 230 - Web Frontend Development">
+    
+    <!-- OG meta tags -->
+    <meta property="og:title" content="Web Frontend Development Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="dos54.github.io/wdd230">
+    <meta property="og:image" content="dos54.github.io/wdd230/images/alaska-sign.jpg">
+    
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+    
+    <!-- Title and favicon -->
+    <title>Steven Thomas - WDD230 - Chamber of Commerce Website</title>
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Scripts -->
+     <script defer src="scripts/menu.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Ketchikan Chamber of Commerce Logo" class="logo">
+        <div>
+            <h1>Ketchikan</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <span id="socials">Facebook | Instagram</span>
+        <button id="menu" type="button" title="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card form-container">
+            <form action="thankyou.html" method="get" class="web-form-1">
+                <h2>Apply to Join!</h2>
+                <label>First Name<input type="text" name="fname" id="fname" required placeholder="First Name"></label>
+                <label>Last Name<input type="text" name="lname" id="lname" required placeholder="Last Name"></label>
+                <label>Position or Title<input type="text" name="position" id="position" placeholder="Position at Company" pattern="^[A-Za-z\- ]{7,}$" title="Pleas enter at least 7 characters including letters, hypens, and spaces."></label>
+                <label>Email<input type="email" name="email" id="email" placeholder="example@example.com" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Please enter a valid email address." required></label>
+                <label>Phone Number<input type="tel" name="tel" id="tel" required pattern="^(\+1\s?)?(\(?\d{3}\)?[\s\-]?)?\d{3}[\s\-]?\d{4}$" title="Enter a valid phone number (e.g., +1 (123) 456-7890 or 123-456-7890)"></label>
+                <label>Company or Organization<input type="text" name="org-name" id="org-name" required placeholder="Example Co."></label>
+                <label>Membership Level<select name="membership-level" id="membership-level">
+                    <option value="" disabled selected>Choose an option</option>
+                    <option value="non-profit">Non-Profit Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select></label>
+                <label>Organization Description<textarea name="description" id="description" placeholder="Example Co. is a company based out of..." rows="5" cols="45"></textarea></label>
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+                <label><input type="submit" value="Apply"></label>
+                <p>* - required</p>
+            </form>
+        </div>
+        <div class="card">
+            <h2>Levels & Benefits</h2>
+            <section>
+                <h3>Gold</h3>
+                <p>Cost: $10,000 annually</p>
+                <p>
+                    Exclusive access to premium events, advanced training programs, featured advertising with a spotlight on the
+                    home page, significant discounts on all Chamber-sponsored events, priority seating at networking functions, and
+                    a dedicated account manager for personalized support.
+                </p>
+            </section>
+            <section>
+                <h3>Silver</h3>
+                <p>Cost: $5,000 annually</p>
+                <p>
+                    Access to select events and training sessions, homepage recognition with rotating banner ads, moderate discounts
+                    on Chamber-sponsored activities, and enhanced networking opportunities through Silver Member-only meetups.
+                </p>
+            </section>
+            <section>
+                <h3>Bronze</h3>
+                <p>Cost: $2,500 annually</p>
+                <p>
+                    Participation in general events and workshops, inclusion in the Chamber member directory, basic advertising
+                    options, and standard discounts for events and promotional materials.
+                </p>
+            </section>
+            <section>
+                <h3>Non-Profit</h3>
+                <p>Cost: Free</p>
+                <p>
+                    Complimentary membership for qualified non-profits, access to community-building events, and promotion in the
+                    Chamber’s non-profit highlight section.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <script defer src="scripts/getDates.js"></script>
+        <div id="info">&copy;<span id="year"></span> Ketchikan Chamber | Steven C. Thomas | WDD 230 Project | Last Modified: <span id="lastModified"></span></div>
+    </footer>
+</body>
+</html>
