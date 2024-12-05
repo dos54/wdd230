@@ -61,7 +61,7 @@
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
-            <ul>
+            <ul id="links-list">
                 <li><a href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a></li>
                 <li><a href="https://codepen.io/dos54">Codepen</a></li>
                 <li><a href="week03/images/landscape.webp">WebP</a></li>
@@ -76,7 +76,7 @@
         <section class="card">
             <h2>Information</h2>
             <p><span id="location"></span></p>
-            <p><span id="temperature"></span></p>
+            <p><img src="" alt="" id="weather-icon"><span id="temperature"></span>&deg;F</p>
             <p>Page Visits: <span id="visits"></span></p>
         </section>
         <iframe
@@ -90,6 +90,7 @@
         <p>&copy;<span id="year"></span> | Steven C. Thomas | Ketchikan, Alaska</p>
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
+    <script defer src="scripts/getWeather.js"></script>
     <script defer src="scripts/getDates.js"></script>
     <script defer src="scripts/visits.js"></script>
 </body>
