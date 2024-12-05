@@ -33,7 +33,11 @@ function displayLinks(weeks) {
                 const a = document.createElement('a');
     
                 li.appendChild(a);
-                a.href = `${baseURL}${link.url}`;
+                if (link.url.substring(0, 4) == "http") {
+                    a.href = link.url;
+                } else {
+                    a.href = `${baseURL}${link.url}`;
+                }
                 a.textContent = link.title;
                 ul.appendChild(li);
             });

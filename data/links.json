@@ -55,6 +55,23 @@
                     "title": "Combinators Exercise Image"
                 }
             ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url": "https://codepen.io/dos54/pen/WberrJd",
+                    "title": "Pseudo-Elements Assignment"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "New Ward Members Json File"
+                },
+                {
+                    "title": "Latter-day Prophets",
+                    "url": "week05/prophets.html"
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,326 @@
+[
+    {
+        "familyName": "Smith",
+        "dateMovedIn": "01/15/2023",
+        "familySize": 4,
+        "hasBeenVisited": false,
+        "members": [
+            {
+                "name": "John",
+                "gender": "male",
+                "birthdate": "06/02/1999"
+            },
+            {
+                "name": "Jane",
+                "gender": "female",
+                "birthdate": "08/15/2000"
+            },
+            {
+                "name": "Ella",
+                "gender": "female",
+                "birthdate": "05/10/2020"
+            },
+            {
+                "name": "Ethan",
+                "gender": "male",
+                "birthdate": "02/12/2018"
+            }
+        ]
+    },
+    {
+        "familyName": "Johnson",
+        "dateMovedIn": "03/10/2022",
+        "familySize": 3,
+        "hasBeenVisited": true,
+        "members": [
+            {
+                "name": "Robert",
+                "gender": "male",
+                "birthdate": "09/05/1990"
+            },
+            {
+                "name": "Sarah",
+                "gender": "female",
+                "birthdate": "07/22/1991"
+            },
+            {
+                "name": "Tommy",
+                "gender": "male",
+                "birthdate": "11/30/2021"
+            }
+        ]
+    },
+    {
+        "familyName": "Williams",
+        "dateMovedIn": "12/25/2021",
+        "familySize": 2,
+        "hasBeenVisited": false,
+        "members": [
+            {
+                "name": "Alice",
+                "gender": "female",
+                "birthdate": "03/14/1987"
+            },
+            {
+                "name": "Emily",
+                "gender": "female",
+                "birthdate": "06/01/2015"
+            }
+        ]
+    },
+    {
+        "familyName": "Brown",
+        "dateMovedIn": "08/20/2020",
+        "familySize": 5,
+        "hasBeenVisited": true,
+        "members": [
+            {
+                "name": "David",
+                "gender": "male",
+                "birthdate": "01/10/1980"
+            },
+            {
+                "name": "Karen",
+                "gender": "female",
+                "birthdate": "05/21/1982"
+            },
+            {
+                "name": "Mike",
+                "gender": "male",
+                "birthdate": "09/15/2005"
+            },
+            {
+                "name": "Lucy",
+                "gender": "female",
+                "birthdate": "11/09/2008"
+            },
+            {
+                "name": "Ben",
+                "gender": "male",
+                "birthdate": "02/03/2013"
+            }
+        ]
+    },
+    {
+        "familyName": "Jones",
+        "dateMovedIn": "07/04/2019",
+        "familySize": 3,
+        "hasBeenVisited": false,
+        "members": [
+            {
+                "name": "Paul",
+                "gender": "male",
+                "birthdate": "12/02/1988"
+            },
+            {
+                "name": "Maggie",
+                "gender": "female",
+                "birthdate": "08/30/1990"
+            },
+            {
+                "name": "Sophia",
+                "gender": "female",
+                "birthdate": "10/15/2020"
+            }
+        ]
+    },
+    {
+        "familyName": "Garcia",
+        "dateMovedIn": "05/16/2021",
+        "familySize": 4,
+        "hasBeenVisited": true,
+        "members": [
+            {
+                "name": "Carlos",
+                "gender": "male",
+                "birthdate": "04/01/1979"
+            },
+            {
+                "name": "Maria",
+                "gender": "female",
+                "birthdate": "06/12/1980"
+            },
+            {
+                "name": "Lucas",
+                "gender": "male",
+                "birthdate": "09/25/2010"
+            },
+            {
+                "name": "Elena",
+                "gender": "female",
+                "birthdate": "12/31/2012"
+            }
+        ]
+    },
+    {
+        "familyName": "Davis",
+        "dateMovedIn": "02/02/2022",
+        "familySize": 2,
+        "hasBeenVisited": false,
+        "members": [
+            {
+                "name": "Mark",
+                "gender": "male",
+                "birthdate": "07/18/1975"
+            },
+            {
+                "name": "Diana",
+                "gender": "female",
+                "birthdate": "11/11/1978"
+            }
+        ]
+    },
+    {
+        "familyName": "Martinez",
+        "dateMovedIn": "06/15/2023",
+        "familySize": 6,
+        "hasBeenVisited": true,
+        "members": [
+            {
+                "name": "Juan",
+                "gender": "male",
+                "birthdate": "02/20/1985"
+            },
+            {
+                "name": "Clara",
+                "gender": "female",
+                "birthdate": "04/30/1986"
+            },
+            {
+                "name": "Ana",
+                "gender": "female",
+                "birthdate": "10/10/2008"
+            },
+            {
+                "name": "Pedro",
+                "gender": "male",
+                "birthdate": "07/07/2012"
+            },
+            {
+                "name": "Victor",
+                "gender": "male",
+                "birthdate": "03/17/2015"
+            },
+            {
+                "name": "Olivia",
+                "gender": "female",
+                "birthdate": "09/12/2020"
+            }
+        ]
+    },
+    {
+        "familyName": "Hernandez",
+        "dateMovedIn": "09/12/2022",
+        "familySize": 4,
+        "hasBeenVisited": false,
+        "members": [
+            {
+                "name": "Miguel",
+                "gender": "male",
+                "birthdate": "08/05/1983"
+            },
+            {
+                "name": "Sofia",
+                "gender": "female",
+                "birthdate": "10/18/1985"
+            },
+            {
+                "name": "Leo",
+                "gender": "male",
+                "birthdate": "03/29/2010"
+            },
+            {
+                "name": "Isabella",
+                "gender": "female",
+                "birthdate": "06/22/2016"
+            }
+        ]
+    },
+    {
+        "familyName": "Wilson",
+        "dateMovedIn": "04/11/2021",
+        "familySize": 3,
+        "hasBeenVisited": true,
+        "members": [
+            {
+                "name": "Brian",
+                "gender": "male",
+                "birthdate": "12/20/1992"
+            },
+            {
+                "name": "Emma",
+                "gender": "female",
+                "birthdate": "01/25/1994"
+            },
+            {
+                "name": "Mia",
+                "gender": "female",
+                "birthdate": "02/14/2019"
+            }
+        ]
+    },
+    {
+        "familyName": "Lopez",
+        "dateMovedIn": "03/20/2023",
+        "familySize": 5,
+        "hasBeenVisited": false,
+        "members": [
+            {
+                "name": "Diego",
+                "gender": "male",
+                "birthdate": "09/10/1984"
+            },
+            {
+                "name": "Luisa",
+                "gender": "female",
+                "birthdate": "05/12/1987"
+            },
+            {
+                "name": "Adrian",
+                "gender": "male",
+                "birthdate": "08/15/2009"
+            },
+            {
+                "name": "Camila",
+                "gender": "female",
+                "birthdate": "03/27/2012"
+            },
+            {
+                "name": "Santiago",
+                "gender": "male",
+                "birthdate": "11/05/2018"
+            }
+        ]
+    },
+    {
+        "familyName": "Clark",
+        "dateMovedIn": "07/23/2020",
+        "familySize": 2,
+        "hasBeenVisited": true,
+        "members": [
+            {
+                "name": "Kevin",
+                "gender": "male",
+                "birthdate": "03/16/1976"
+            },
+            {
+                "name": "Lily",
+                "gender": "female",
+                "birthdate": "06/05/1980"
+            }
+        ]
+    },
+    {
+        "familyName": "Young",
+        "dateMovedIn": "05/05/2018",
+        "familySize": 1,
+        "hasBeenVisited": false,
+        "members": [
+            {
+                "name": "Grace",
+                "gender": "female",
+                "birthdate": "11/22/1995"
+            }
+        ]
+    }
+]
