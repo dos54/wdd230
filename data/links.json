@@ -1,6 +1,15 @@
 {
     "weeks": [
         {
+            "week": "Codepen",
+            "links": [
+                {
+                    "url": "https://codepen.io/dos54",
+                    "title": "Codepen"
+                }
+            ]
+        },
+        {
             "week": "Week 01",
             "links": [
                 {
@@ -14,15 +23,6 @@
                 {
                     "url": "week01/chamber-site-plan.html",
                     "title": "Chamber of Commerce Site Plan"
-                }
-            ]
-        },
-        {
-            "week": "External",
-            "links": [
-                {
-                    "url": "https://codepen.io/dos54",
-                    "title": "Codepen"
                 }
             ]
         },
