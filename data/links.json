@@ -2,15 +2,57 @@
     "weeks": [
         {
             "week": "Week 01",
-            "links": 
-            [
+            "links": [
                 {
                     "url": "week01/holygrail.html",
-                    "title":"HG Layout"
+                    "title": "HG Layout"
                 },
                 {
                     "url": "week01/media-query.html",
                     "title": "Media Query"
+                },
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Chamber of Commerce Site Plan"
+                }
+            ]
+        },
+        {
+            "week": "External",
+            "links": [
+                {
+                    "url": "https://codepen.io/dos54",
+                    "title": "Codepen"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Week 3 Book of Mormon Chapters List"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url": "week04/images/combinators-exercise.png",
+                    "title": "Combinators Exercise Image"
                 }
             ]
         }
