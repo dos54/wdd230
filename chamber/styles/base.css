@@ -101,12 +101,13 @@ main {
     min-width: 30rem;
     max-width: 80%;
     margin: .5rem auto;
+    padding: 1rem;
     background-color: rgba(0, 0, 0, .04);
 }
 
 .card h1,
 .card h2 {
-    margin: 0.5rem 1rem;
+    /* margin: 0.5rem 1rem; */
     border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
@@ -246,13 +247,41 @@ footer {
 }
 
 #directory {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     width: 100%;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
 #directory .card {
     height: auto;
+
+}
+
+#directory > .card > .member-logo {
+    display: block;
+    width: 12rem;
+    height: auto;
+
+    margin: .25rem auto;
+}
+
+#options {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.column-layout {
+    flex-direction: column;
+}
+
+#toggle {
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+#toggle:hover {
+    background-color: rgba(0, 0, 0, .1);
+    cursor: pointer;   
 }

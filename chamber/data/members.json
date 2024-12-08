@@ -5,7 +5,7 @@
             "address": "101 Main Street",
             "phone_number": "9876543210",
             "website": "www.northernsupplies.com",
-            "logo": "images/northern-logo.png",
+            "logo": "images/northern-logo.webp",
             "membership_level": "gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "202 Forest Drive",
             "phone_number": "4567891230",
             "website": "www.evergreenbuilders.com",
-            "logo": "images/evergreen-logo.png",
+            "logo": "images/evergreen-logo.webp",
             "membership_level": "silver"
         },
         {
@@ -21,7 +21,7 @@
             "address": "303 Harbor Lane",
             "phone_number": "2345678901",
             "website": "www.oceanadventures.com",
-            "logo": "images/ocean-logo.png",
+            "logo": "images/ocean-logo.webp",
             "membership_level": "bronze"
         },
         {
@@ -29,7 +29,7 @@
             "address": "404 Cedar Road",
             "phone_number": "3456789012",
             "website": "www.cedarsolutions.com",
-            "logo": "images/cedar-logo.png",
+            "logo": "images/cedar-logo.webp",
             "membership_level": "gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "505 Summit Avenue",
             "phone_number": "5678901234",
             "website": "www.peakfinancial.com",
-            "logo": "images/peak-logo.png",
+            "logo": "images/peak-logo.webp",
             "membership_level": "silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "606 Alpine Drive",
             "phone_number": "6789012345",
             "website": "www.mountainoutfitters.com",
-            "logo": "images/mountain-logo.png",
+            "logo": "images/mountain-logo.webp",
             "membership_level": "bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "707 Charity Way",
             "phone_number": "7890123456",
             "website": "www.communitysupport.org",
-            "logo": "images/community-logo.png",
+            "logo": "images/community-logo.webp",
             "membership_level": "non profit"
         },
         {
@@ -61,7 +61,7 @@
             "address": "808 Oceanfront Blvd",
             "phone_number": "8901234567",
             "website": "www.harborcafe.com",
-            "logo": "images/harbor-logo.png",
+            "logo": "images/harbor-logo.webp",
             "membership_level": "bronze"
         },
         {
@@ -69,7 +69,7 @@
             "address": "909 Icefield Road",
             "phone_number": "9012345678",
             "website": "www.glaciertours.com",
-            "logo": "images/glacier-logo.png",
+            "logo": "images/glacier-logo.webp",
             "membership_level": "gold"
         },
         {
@@ -77,7 +77,7 @@
             "address": "1010 Greenway Street",
             "phone_number": "1230987654",
             "website": "www.ecofriendly.com",
-            "logo": "images/eco-logo.png",
+            "logo": "images/eco-logo.webp",
             "membership_level": "silver"
         },
         {
@@ -85,7 +85,7 @@
             "address": "1111 Sunrise Lane",
             "phone_number": "4561237890",
             "website": "www.sunrisegallery.com",
-            "logo": "images/sunrise-logo.png",
+            "logo": "images/sunrise-logo.webp",
             "membership_level": "non profit"
         },
         {
@@ -93,7 +93,7 @@
             "address": "1212 Adventure Drive",
             "phone_number": "7893456123",
             "website": "www.trailblazers.com",
-            "logo": "images/trailblazers-logo.png",
+            "logo": "images/trailblazers-logo.webp",
             "membership_level": "gold"
         }
     ]
