@@ -26,6 +26,8 @@ header {
 
     display: flex;
 
+    position: relative;
+
     /* Colors and theming */
     color: var(--text-color);
     background-color: var(--theme-ultralight);
@@ -34,7 +36,7 @@ header {
 
 
 .navigation {
-    display: none;
+    visibility: hidden;
     align-items: center;
     margin-left: auto;
     margin-top: auto;
@@ -77,6 +79,12 @@ header {
 
 #socials {
     margin-left: 1rem;
+}
+
+#socials > a {
+    height: 48px;
+    width: 48px;
+    text-decoration: none;
 }
 
 
@@ -124,11 +132,15 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-row: 3/4;
     background-color: var(--theme-ultralight);
     color: var(--text-color);
     height: 5rem;
     text-align: center;
+    
 }
 
 #menu {
@@ -154,16 +166,20 @@ footer {
 }
 
 .navigation.open {
-    display: block;
+    visibility: visible;
     position: absolute;
-    top: 10rem;
-    left: 0;
+    top: 100%;
+    right: 0;
 }
 
 .navigation.open ul {
     display: block;
     background-color: var(--theme-ultralight);
     padding: 2rem;
+}
+
+.navigation.open li {
+    margin: 1rem;
 }
 
 #discovery-content {

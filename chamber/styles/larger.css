@@ -1,10 +1,12 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1000px) {
     #menu {
         display: none;
     }
 
     .navigation {
         display: flex;
+        visibility: visible;
+        margin-right: 5rem;
     }
 
     main {
