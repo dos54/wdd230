@@ -1,0 +1,100 @@
+{
+    "members": [
+        {
+            "name": "Northern Supplies Ltd.",
+            "address": "101 Main Street",
+            "phone_number": "9876543210",
+            "website": "www.northernsupplies.com",
+            "logo": "images/northern-logo.png",
+            "membership_level": "gold"
+        },
+        {
+            "name": "Evergreen Builders",
+            "address": "202 Forest Drive",
+            "phone_number": "4567891230",
+            "website": "www.evergreenbuilders.com",
+            "logo": "images/evergreen-logo.png",
+            "membership_level": "silver"
+        },
+        {
+            "name": "Ocean Adventures",
+            "address": "303 Harbor Lane",
+            "phone_number": "2345678901",
+            "website": "www.oceanadventures.com",
+            "logo": "images/ocean-logo.png",
+            "membership_level": "bronze"
+        },
+        {
+            "name": "Cedar Solutions",
+            "address": "404 Cedar Road",
+            "phone_number": "3456789012",
+            "website": "www.cedarsolutions.com",
+            "logo": "images/cedar-logo.png",
+            "membership_level": "gold"
+        },
+        {
+            "name": "Peak Financial",
+            "address": "505 Summit Avenue",
+            "phone_number": "5678901234",
+            "website": "www.peakfinancial.com",
+            "logo": "images/peak-logo.png",
+            "membership_level": "silver"
+        },
+        {
+            "name": "Mountain Outfitters",
+            "address": "606 Alpine Drive",
+            "phone_number": "6789012345",
+            "website": "www.mountainoutfitters.com",
+            "logo": "images/mountain-logo.png",
+            "membership_level": "bronze"
+        },
+        {
+            "name": "Community Support Network",
+            "address": "707 Charity Way",
+            "phone_number": "7890123456",
+            "website": "www.communitysupport.org",
+            "logo": "images/community-logo.png",
+            "membership_level": "non profit"
+        },
+        {
+            "name": "Harbor Cafe",
+            "address": "808 Oceanfront Blvd",
+            "phone_number": "8901234567",
+            "website": "www.harborcafe.com",
+            "logo": "images/harbor-logo.png",
+            "membership_level": "bronze"
+        },
+        {
+            "name": "Glacier Tours",
+            "address": "909 Icefield Road",
+            "phone_number": "9012345678",
+            "website": "www.glaciertours.com",
+            "logo": "images/glacier-logo.png",
+            "membership_level": "gold"
+        },
+        {
+            "name": "Eco-Friendly Solutions",
+            "address": "1010 Greenway Street",
+            "phone_number": "1230987654",
+            "website": "www.ecofriendly.com",
+            "logo": "images/eco-logo.png",
+            "membership_level": "silver"
+        },
+        {
+            "name": "Sunrise Art Gallery",
+            "address": "1111 Sunrise Lane",
+            "phone_number": "4561237890",
+            "website": "www.sunrisegallery.com",
+            "logo": "images/sunrise-logo.png",
+            "membership_level": "non profit"
+        },
+        {
+            "name": "Trailblazers Outdoor Gear",
+            "address": "1212 Adventure Drive",
+            "phone_number": "7893456123",
+            "website": "www.trailblazers.com",
+            "logo": "images/trailblazers-logo.png",
+            "membership_level": "gold"
+        }
+    ]
+}

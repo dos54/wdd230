@@ -244,3 +244,15 @@ footer {
     min-height: 3rem;
 
 }
+
+#directory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#directory .card {
+    height: auto;
+}
