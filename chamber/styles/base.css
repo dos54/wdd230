@@ -127,6 +127,10 @@ main {
     margin-left: 2rem;
 }
 
+.centered {
+    text-align: center;
+}
+
 #spotlights > h2 {
     text-align: center;
     color: var(--theme-dark);
@@ -284,4 +288,31 @@ footer {
 #toggle:hover {
     background-color: rgba(0, 0, 0, .1);
     cursor: pointer;   
+}
+
+.weather-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-container {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.temperature::after {
+    content: "°F";
+}
+
+.weather-description {
+    width: 100%;
+    text-align: center;
+}
+
+
+#weather-and-forecast {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: var(--theme-ultralight);
 }

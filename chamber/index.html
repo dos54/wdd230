@@ -71,8 +71,21 @@
         </section>
         <section class="card" id="weather">
             <h2>Weather</h2>
+            <div id="weather-and-forecast">
+                <h3 class="centered">It's currently</h3>
+                <img src="" alt="" id="weather-icon" class="weather-icon">
+                <div id="temperature-container" class="temperature-container">
+                    <span id="temperature" class="temperature"></span>
+                </div>
+                <div id="weather-description" class="weather-description"></div>
+                <h3 class="centered">3 Day 9AM Forecasts</h3>
+                <section id="forecasts">
+
+                </section>
+            </div>
         </section>
         <section id="spotlights">
+            <script defer src="scripts/spotlights.js"></script>
             <h2>Member Spotlights</h2>
             <div class="card">
                 <h2>Member1</h2>
@@ -97,6 +110,7 @@
             </div>
 
         </section>
+        <script defer src="scripts/getWeather.js"></script>
     </main>
 
     <footer>
