@@ -316,3 +316,41 @@ footer {
     border-radius: 6px;
     background-color: var(--theme-ultralight);
 }
+
+#banner-wrapper {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.banner {
+    position: absolute;
+    background-color: var(--background-color);
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);    
+    height: 512px;
+    width: 512px;
+}
+
+.banner > img {
+    width: 256px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#exit-invitation {
+    position: absolute;
+    top: .25rem;
+    right: .25rem;
+}
+
+
+.spotlight-logo {
+    float: left;
+    margin: .25rem;
+    width: 64px;
+    height: auto;
+}

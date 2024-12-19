@@ -60,6 +60,15 @@
     </header>
 
     <main>
+        <div id="banner-wrapper" hidden>
+            <div class="banner card" id="invitation">
+                <script defer src="scripts/popup.js"></script>
+                <button type="button" id="exit-invitation">X</button>
+                <h2>Meet Chamber Members</h2>
+                <p>Join us for our meet and greet, held Wednesday at 7:00p.m. at the Chamber of Commerce building!</p>
+                <img src="images/commerce-logo.webp" alt="Logo">
+            </div>
+        </div>
         <div id="hero"><img src="images/alaska-hero.jpg" alt="Hero image"></div>
         <div id="call-to-action"><a href="">Join now!</a></div>
         <section class="card" id="current-events" >
@@ -72,7 +81,7 @@
         <section class="card" id="weather">
             <h2>Weather</h2>
             <div id="weather-and-forecast">
-                <h3 class="centered">It's currently</h3>
+                <h3 class="centered">In Ketchikan it's currently</h3>
                 <img src="" alt="" id="weather-icon" class="weather-icon">
                 <div id="temperature-container" class="temperature-container">
                     <span id="temperature" class="temperature"></span>
@@ -87,7 +96,7 @@
         <section id="spotlights">
             <script defer src="scripts/spotlights.js"></script>
             <h2>Member Spotlights</h2>
-            <div class="card">
+            <!-- <div class="card">
                 <h2>Member1</h2>
                 <p>description</p>
                 <div class="contact">
@@ -107,7 +116,7 @@
                 <div class="contact">
 
                 </div>
-            </div>
+            </div> -->
 
         </section>
         <script defer src="scripts/getWeather.js"></script>
